@@ -18,8 +18,8 @@ public class TutorrialNinjaProject {
 		driver.findElement(By.linkText("https://tutorialsninja.com/demo")).click();
 		driver.findElement(By.xpath("//span[text()='My Account']")).click();
 		driver.findElement(By.linkText("Login")).click();
-		driver.findElement(By.id("input-email")).sendKeys("bhabaniss@gmail.com");
-		driver.findElement(By.id("input-password")).sendKeys("1234");
+		driver.findElement(By.id("input-email")).sendKeys("ammualam118@gmail.com");
+		driver.findElement(By.id("input-password")).sendKeys("Asifamir@7866");
 		driver.findElement(By.xpath("//input[@class='btn btn-primary']")).click();
 		System.out.println(driver.findElement(By.xpath("//a[text()='Account']")).getText());
 		driver.findElement(By.name("search")).sendKeys("hp");
@@ -38,8 +38,8 @@ public class TutorrialNinjaProject {
 		
 		//if you are ordering first time then uncomment this
 		
-//		driver.findElement(By.xpath("//input[@id='input-payment-firstname']")).sendKeys("bhabani");
-//		driver.findElement(By.xpath("//input[@id='input-payment-lastname']")).sendKeys("sahoo");
+//		driver.findElement(By.xpath("//input[@id='input-payment-firstname']")).sendKeys("Amir");
+//		driver.findElement(By.xpath("//input[@id='input-payment-lastname']")).sendKeys("Alam");
 //		driver.findElement(By.xpath("//input[@id='input-payment-company']")).sendKeys("KosNest");
 //		driver.findElement(By.xpath("//input[@id='input-payment-address-1']")).sendKeys("my address here");
 //		driver.findElement(By.xpath("//input[@id='input-payment-address-2']")).sendKeys("my address 2 here");
