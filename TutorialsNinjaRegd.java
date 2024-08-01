@@ -19,10 +19,10 @@ public class TutorialsNinjaRegd {
 		driver.findElement(By.linkText("Register")).click();
 		driver.findElement(By.id("input-firstname")).sendKeys("your first name here");
 		driver.findElement(By.id("input-lastname")).sendKeys("your lastr name here");
-		driver.findElement(By.id("input-email")).sendKeys("bhabani@gmail.com");
+		driver.findElement(By.id("input-email")).sendKeys("ammualam118@gmail.com");
 		driver.findElement(By.id("input-telephone")).sendKeys("123456789");
-		driver.findElement(By.id("input-password")).sendKeys("1234");
-		driver.findElement(By.id("input-confirm")).sendKeys("1234");
+		driver.findElement(By.id("input-password")).sendKeys("Asifamir@7866");
+		driver.findElement(By.id("input-confirm")).sendKeys("Asifamir@7866");
 		driver.findElement(By.xpath("//input[@value='0']")).click();
 		driver.findElement(By.xpath("//b[text()='Privacy Policy']")).click();
 		Thread.sleep(3000);
