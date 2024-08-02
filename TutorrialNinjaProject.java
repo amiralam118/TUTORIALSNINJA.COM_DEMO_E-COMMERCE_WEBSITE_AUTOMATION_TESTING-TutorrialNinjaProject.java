@@ -18,8 +18,8 @@ public class TutorrialNinjaProject {
 		driver.findElement(By.linkText("https://tutorialsninja.com/demo")).click();
 		driver.findElement(By.xpath("//span[text()='My Account']")).click();
 		driver.findElement(By.linkText("Login")).click();
-		driver.findElement(By.id("input-email")).sendKeys("ammualam118@gmail.com");
-		driver.findElement(By.id("input-password")).sendKeys("Asifamir@7866");
+		driver.findElement(By.id("input-email")).sendKeys("ammualam0@gmail.com");
+		driver.findElement(By.id("input-password")).sendKeys("1234");
 		driver.findElement(By.xpath("//input[@class='btn btn-primary']")).click();
 		System.out.println(driver.findElement(By.xpath("//a[text()='Account']")).getText());
 		driver.findElement(By.name("search")).sendKeys("hp");
